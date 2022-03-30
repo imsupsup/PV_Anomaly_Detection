@@ -1,5 +1,10 @@
 from matplotlib import pyplot as plt
 from matplotlib import colors
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+
 
 def plot_heat(arr):
     plt.pcolor(arr)
